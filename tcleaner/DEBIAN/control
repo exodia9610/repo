@@ -4,8 +4,8 @@ Depends:
 Version: 1.5
 Architecture: iphoneos-arm
 Description: TC助手. Sofisticated but simple cleaning utility.
-Depiction: 
-SileoDepiction: https://exodia9610.github.io/sileo/com.exodia9610.tcleaner.json
+Depiction: https://exodia9610.github.io/sileo/com.exodia9610.tcleaner.json
+SileoDepiction: https://exodia9610.github.io/repo/sileo/com.exodia9610.tcleaner.json
 Maintainer: exodia9610 <njl02@outlook.com>
 Author: exodia9610 <njl02@outlook.com>
 Section: Utilities
