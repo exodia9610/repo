@@ -1,82 +1,78 @@
 {
-    "minVersion": "0.1",
-    "headerImage": "https://exodia9610.github.com/repo/sileo/assets/header.png",
-    "tintColor": "#2cb1be",
+    "class": "DepictionTabView",
     "tabs": [
         {
+            "class": "DepictionStackView",
             "tabname": "Details",
             "views": [
                 {
-                    "title": "TCLEANER",
                     "useBoldText": true,
-                    "useBottomMargin": false,
-                    "class": "DepictionSubheaderView"
+                    "title": "TCLEANER",
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false
                 },
                 {
-                    "markdown": "Command-Line System Cleaning Tool.",
                     "useSpacing": true,
+                    "markdown": "Command-line iOS System Cleaning Utility.",
                     "class": "DepictionMarkdownView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": ""
+                        }
+                    ],
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6
+                },
+                {
+                    "useBoldText": true,
+                    "markdown": "Now with iOS 12 support!",
+                    "title": "markdown-description",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false
                 },
                 {
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "title": "Latest Version",
-                    "class": "DepictionHeaderView"
-                },
-                {
+                    "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.5",
-                    "class": "DepictionTableTextView"
+                    "text": "1.5"
                 },
                 {
+                    "class": "DepictionTableTextView",
                     "title": "Released",
-                    "text": "2019/7/12",
-                    "class": "DepictionTableTextView"
+                    "text": "07-12-2019"
                 },
                 {
+                    "class": "DepictionTableTextView",
                     "title": "Price",
-                    "text": "0",
-                    "class": "DepictionTableTextView"
+                    "text": "Free"
                 },
                 {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "class": "DepictionTableTextView",
                     "title": "Developer",
-                    "text": "exodia9610",
-                    "class": "DepictionTableTextView"
+                    "text": "exodia9610"
                 },
                 {
-                    "title": "Contact Support",
-                    "action": "https://paypal.me/noahjl",
-                    "class": "DepictionTableButtonView"
-                },
-                {
-                    "spacing": 16,
-                    "class": "DepictionSpacerView"
-                },
-                {
-                    "spacing": 20,
+                    "spacing": 8,
                     "class": "DepictionSpacerView"
                 }
-            ],
-            "class": "DepictionStackView"
-        },
-        {
-            "tabname": "Changelog",
-            "views": [
-                {
-                    "title": "1.5",
-                    "useBoldText": true,
-                    "useBottomMargin": true,
-                    "class": "DepictionSubheaderView"
-                },
-                {
-                    "markdown": "\t\n\u2022 Sileo depictions ",
-                    "useSpacing": false,
-                    "class": "DepictionMarkdownView"
-                }
-            ],
-            "class": "DepictionStackView"
+            ]
         }
     ],
-    "class": "DepictionTabView"
+    "minVersion": "0.1",
+    "headerImage": "https://exodia9610.github.io/repo/sileo/assets/header.png",
+    "tintColor": "#0657bb"
 }
