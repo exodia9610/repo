@@ -69,6 +69,17 @@
             "tabname": "Changelog",
             "views": [
                 {
+                    "title": "1.5.1",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Fix postinst ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
                     "title": "1.5",
                     "useBoldText": true,
                     "useBottomMargin": true,
@@ -79,7 +90,7 @@
                     "useSpacing": false,
                     "class": "DepictionMarkdownView"
                 },
-                                {
+                {
                     "title": "1.4",
                     "useBoldText": true,
                     "useBottomMargin": true,
