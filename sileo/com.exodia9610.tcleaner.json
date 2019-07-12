@@ -1,0 +1,148 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://exodia9610.github.io/repo/sileo/assets/header.png",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "tintColor": "#a2cc9f",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<p style=\"font-size:10pt;\"><strong>Commandline iOS System Cleaning Utility.</strong>",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Screenshots",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{360, 1363}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://exodia9610.github.io/repo/depictions/screenshots/com.exodia9610.tcleaner/ss.png"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "exodia9610",
+          "title": "Author"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "1.0",
+          "title": "Version"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS9.0 - 12.1.2",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "N/A",
+          "title": "Dependency"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "action": "https://twitter.com/exodia9610",
+          "class": "DepictionTableButtonView",
+          "title": "Follow me on Twitter (@exodia9610)",
+          "openExternal": true
+        },
+        {
+          "action": "mailto:njl02@outlook.com",
+          "class": "DepictionTableButtonView",
+          "title": "Send me an email"
+        },
+        {
+          "action": "https://paypal.me/noahjl",
+          "class": "DepictionTableButtonView",
+          "title": "Buy me an 🍏 via PayPal"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 40
+        },
+        {
+          "URL": "https://exodia9610.github.io/repo/CydiaIcon.png",
+          "alignment": 1,
+          "class": "DepictionImageView",
+          "cornerRadius": 0,
+          "height": 45,
+          "width": 45
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "tintColor": "#a2cc9f",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<ul>\n<li>Sileo Depictions</li>\n</ul>",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ],
+  "tintColor": "#a2cc9f"
+}
