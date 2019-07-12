@@ -1,0 +1,78 @@
+{
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                {
+                    "useBoldText": true,
+                    "title": "TCLEANER",
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false
+                },
+                {
+                    "useSpacing": true,
+                    "markdown": "Command-line iOS System Cleaning Utility.",
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": ""
+                        }
+                    ],
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6
+                },
+                {
+                    "useBoldText": true,
+                    "markdown": "Now with iOS 12 support!",
+                    "title": "markdown-description",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.5"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Released",
+                    "text": "07-12-2019"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "exodia9610"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                }
+            ]
+        }
+    ],
+    "minVersion": "0.1",
+    "headerImage": "https://exodia9610.github.io/repo/sileo/assets/header.png",
+    "tintColor": "#0657bb"
+}
