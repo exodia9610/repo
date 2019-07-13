@@ -17,17 +17,23 @@
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
-                {
-                    "itemSize": "{160, 275.41333333333336}",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot0",
-                            "url": "https://exodia9610.github.io/repo/sileo/assets/tcleaner-screenshot1.png"
-                        }
-                    ],
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6
-                },
+{
+          "class": "DepictionSubheaderView",
+          "title": "Screenshots",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{300, 533}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://exodia9610.github.io/repo/sileo/assets/tcleaner-screenshot1.png"
+            },
+          ]
+        },
                 {
                     "class": "DepictionSeparatorView"
                 },
