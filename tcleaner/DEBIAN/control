@@ -1,7 +1,7 @@
 Package: com.exodia9610.tcleaner
 Name: TCLEANER
 Depends:
-Version: 1.5.1
+Version: 1.6
 Architecture: iphoneos-arm
 Description: TC助手. Sofisticated but simple cleaning utility.
 Depiction: https://exodia9610.github.io/sileo/com.exodia9610.tcleaner.json

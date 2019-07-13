@@ -18,6 +18,17 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://exodia9610.github.io/repo/sileo/assets/tcleaner-screenshot.png"
+                        }
+                    ],
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6
+                },
+                {
                     "class": "DepictionSeparatorView"
                 },
                 {
@@ -68,6 +79,17 @@
         {
             "tabname": "Changelog",
             "views": [
+                {
+                    "title": "1.6",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Reduced tcleaner executable size and fixed all errors and calculation problems. Also removed 'bc' as a dependency and uses the systems 'expr' command.  ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
                 {
                     "title": "1.5.1",
                     "useBoldText": true,
