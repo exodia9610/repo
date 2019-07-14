@@ -1,10 +1,11 @@
 Package: com.exodia9610.xxxtentacionrevenge
-Name: xxxtentacion - revenge (For Xeon / Zeppelin)
+Name: XXXTENTACION - Revenge (Xeon / Zeppelin)
 Depends:
 Version: 1.1
 Architecture: iphoneos-arm
 Description: xxxtentacion Xeon / Zeppelin logo.
 Depiction: https://exodia9610.github.io/repo/sileo/com.exodia9610.xxxtentacionrevenge.json
+SileoDepiction: https://exodia9610.github.io/repo/sileo/com.exodia9610.xxxtentacionrevenge.json
 Maintainer: exodia9610 <njl02@outlook.com>
 Author: exodia9610 <njl02@outlook.com>
 Section: Themes
