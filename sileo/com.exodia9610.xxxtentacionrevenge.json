@@ -1,0 +1,115 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://exodia9610.github.io/repo/sileo/assets/header.png",
+    "tintColor": "#000000",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "XXXTENTACION - Revenge (Xeon / Zeppelin)",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "X's classic 'Revenge' logo for Xeon / Zeppelin.",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+{
+          "class": "DepictionSubheaderView",
+          "title": "Screenshots",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{300, 533}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://exodia9610.github.io/repo/sileo/assets/xxxtentacionrevenge-screenshot1.png"
+            },
+          ]
+        },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Latest Version",
+                    "class": "DepictionHeaderView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.1",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "2019/7/15",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "exodia9610",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Support Me",
+                    "action": "https://paypal.me/noahjl",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "title": "Follow Me",
+                    "action": "https://twitter.com/exodia9610",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "title": "1.1",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Added Sileo depictions and fixed control file.",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "title": "1.0",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "\t\n\u2022 Initial release. ",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}

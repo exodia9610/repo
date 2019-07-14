@@ -1,7 +1,7 @@
 {
     "minVersion": "0.1",
     "headerImage": "https://exodia9610.github.io/repo/sileo/assets/header.png",
-    "tintColor": "#2cb1be",
+    "tintColor": "#000000",
     "tabs": [
         {
             "tabname": "Details",
@@ -13,7 +13,7 @@
                     "class": "DepictionSubheaderView"
                 },
                 {
-                    "markdown": "Command-Line System Cleaning Tool.",
+                    "markdown": "Command-Line System Cleaning Tool. Type 'tcleaner' into terminal.",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -43,12 +43,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "1.5",
+                    "text": "1.6",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Released",
-                    "text": "2019/7/12",
+                    "text": "2019/7/13",
                     "class": "DepictionTableTextView"
                 },
                 {

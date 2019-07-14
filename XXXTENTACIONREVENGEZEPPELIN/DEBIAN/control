@@ -1,11 +1,11 @@
-Package: com.mogui666.xxxtentacionrevenge
-Name: XXXTENTACION REVENGE Zeppelin Logo
+Package: com.exodia9610.xxxtentacionrevenge
+Name: xxxtentacion - revenge (For Xeon / Zeppelin)
 Depends:
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
-Description: Rest easy, vro.
-Depiction: https://mogui666.github.io/depic/xxxrevenge
-Maintainer: mogui666 <njl02@outlook.com>
-Author: mogui666 <njl02@outlook.com>
+Description: xxxtentacion Xeon / Zeppelin logo.
+Depiction: https://exodia9610.github.io/repo/sileo/com.exodia9610.xxxtentacionrevenge.json
+Maintainer: exodia9610 <njl02@outlook.com>
+Author: exodia9610 <njl02@outlook.com>
 Section: Themes
 
