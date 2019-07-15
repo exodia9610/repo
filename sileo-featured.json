@@ -3,5 +3,6 @@
 	"itemCornerRadius":10,
 	"banners":[{"url":"https://exodia9610.github.io/repo/sileo/assets/tcleaner-featured.png",
 	"title":"TCLEANER",
+	"package":"com.exodia9610.tcleaner",
 	"hideShadow":false}]
 }
