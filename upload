@@ -5,7 +5,6 @@ read -p 'Commit Message: ' message
 
 #er
 
-
 git init
 git remote add origin https://github.com/exodia9610/exodia
 git add --all

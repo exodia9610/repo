@@ -1,5 +1,5 @@
 Package: com.exodia9610.dndallow
-Name: DNDAllow
+Name: DNDAllow (No Cephei)
 Depends: mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
 Description: Allows specific apps to be shown when DND/Bedtime is activated.
