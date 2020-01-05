@@ -4,5 +4,5 @@ clear
 
 dpkg-scanpackages -m . /dev/null >Packages
 bzip2 Packages
-
-./upload
+mv Packages.bz2 repo/
+#./upload

@@ -1,0 +1,10 @@
+Package: com.exodia9610.dndallow
+Name: DNDAllow
+Depends: mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Description: Allows specific apps to be shown when DND/Bedtime is activated.
+Maintainer: Karimo299 & exodia9610
+Author: Karimo299 & exodia9610
+Section: Tweaks
+Version: 2.0
+Installed-Size: 220

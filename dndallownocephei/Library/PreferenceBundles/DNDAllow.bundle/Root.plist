@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Main</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.karimo299.dndallow/prefChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.karimo299.dndallow</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>ALChangeNotification</key>
+			<string>com.karimo299.dndallow/prefChanged</string>
+			<key>ALNavigationTitle</key>
+			<string>Enabled Apps</string>
+			<key>ALSettingsKeyPrefix</key>
+			<string>EnabledApps-</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.karimo299.dndallow.plist</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>enabled</key>
+			<true/>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Enabled Apps</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Developer</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>tweet</string>
+			<key>big</key>
+			<true/>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>height</key>
+			<integer>56</integer>
+			<key>label</key>
+			<string>Karimo299 | No Cephei by exodia9610</string>
+			<key>user</key>
+			<string>Karimo299 | No Cephei by exodia9610</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>paypal</string>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Paypal</string>
+			<key>subtitle</key>
+			<string>Donate!</string>
+			<key>url</key>
+			<string>http://paypal.me/Karimo299</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>git</string>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code</string>
+			<key>subtitle</key>
+			<string>Check it out!</string>
+			<key>url</key>
+			<string>http://github.com/Karimo299/DNDAllow</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>DNDAllow</string>
+</dict>
+</plist>
